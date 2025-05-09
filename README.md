@@ -15,7 +15,6 @@
 ## 🧰 사용 부품
 
 - ESP32 DevKit v1
-- 점퍼 케이블
 - LED 모듈 (또는 내장 LED)
 - Micro USB 케이블
 
