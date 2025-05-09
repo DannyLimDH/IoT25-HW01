@@ -26,9 +26,6 @@
   - V (VCC) → 3.3V
   - G (GND) → GND
   - S (Signal) → GPIO 2
-
-> 📸 회로 사진은 `/media/hw1-1.png`, `/media/hw1-2.png` 참고
-
 ---
 
 ## 🧾 코드 설명
@@ -55,6 +52,10 @@ void loop() {
 - 1초 간격으로 LED를 켜고 끄며, 시리얼 모니터에 상태 출력
 
 ---
+## ▶ 스크린 샷
+
+[스크린샷 1](https://github.com/DannyLimDH/IoT25-HW01/blob/main/media/hw1-1.png)
+[스크린샷 2](https://github.com/DannyLimDH/IoT25-HW01/blob/main/media/hw1-2.png)
 
 ## ▶ 실행 영상
 
