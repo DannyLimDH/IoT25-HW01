@@ -60,11 +60,7 @@ void loop() {
 ---
 ## ▶ 실행 영상
 
-📹 
-<video width="600" controls>
-  <source src="https://raw.githubusercontent.com/DannyLimDH/IoT25-HW01/main/media/IoT25-HW01.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+📹 ![GIF 설명](./media/your-video.gif)
 
 ---
 
