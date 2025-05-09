@@ -60,7 +60,7 @@ void loop() {
 ---
 ## ▶ 실행 영상
 
-📹 ![GIF 설명](./media/your-video.gif)
+📹 ![GIF 설명](./media/IoT25-HW01.gif)
 
 ---
 
