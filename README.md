@@ -59,7 +59,7 @@ void loop() {
 
 ## ▶ 실행 영상
 
-📹 [실행 결과 보기](./media/IoT25-HW01.mp4)
+📹 ![실행 결과 보기](./media/IoT25-HW01.mp4)
 
 ---
 
