@@ -54,8 +54,8 @@ void loop() {
 ---
 ## ▶ 스크린 샷
 
-[스크린샷 1](https://github.com/DannyLimDH/IoT25-HW01/blob/main/media/hw1-1.png)
-[스크린샷 2](https://github.com/DannyLimDH/IoT25-HW01/blob/main/media/hw1-2.png)
+![스크린샷 1](https://github.com/DannyLimDH/IoT25-HW01/blob/main/media/hw1-1.png)
+![스크린샷 2](https://github.com/DannyLimDH/IoT25-HW01/blob/main/media/hw1-2.png)
 
 ## ▶ 실행 영상
 
