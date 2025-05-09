@@ -1,34 +1,33 @@
 # IoT25-HW01: ESP32 LED Blink Test
 
-이 프로젝트는 ESP32 개발 보드를 사용하여 내장 또는 외장 LED를 1초 간격으로 점멸시키는 과제입니다.
+This project uses an ESP32 development board to blink an onboard or external LED at 1-second intervals.
 
 ---
 
-## 🧾 과제 목표
+## 🧾 Project Objectives
 
-- Arduino IDE를 이용한 ESP32 개발 환경 구축
-- GPIO 출력 제어 실습 (LED 점멸)
-- 시리얼 모니터 출력 확인
+- Set up the ESP32 development environment using the Arduino IDE
+- Practice GPIO output control (LED blinking)
 
 ---
 
-## 🧰 사용 부품
+## 🧰 Components Used
 
 - ESP32 DevKit v1
-- LED 모듈 (또는 내장 LED)
-- Micro USB 케이블
+- LED module (or onboard LED)
+- Micro USB cable
 
 ---
 
-## 🔌 회로 연결
+## 🔌 Circuit Connection
 
-- LED 모듈 → ESP32
+- LED Module → ESP32
   - V (VCC) → 3.3V
   - G (GND) → GND
   - S (Signal) → GPIO 2
 ---
 
-## 🧾 코드 설명
+## 🧾 Code Explanation
 
 ```cpp
 #define LED 2
@@ -48,24 +47,23 @@ void loop() {
 }
 ```
 
-- `GPIO 2` 핀을 출력으로 설정
-- 1초 간격으로 LED를 켜고 끄며, 시리얼 모니터에 상태 출력
+- Sets GPIO 2 as an output.
+- Turns the LED on and off every second, and logs “LED is on” / “LED is off” to the Serial Monitor.
 
 ---
-## ▶ 스크린 샷
+## ▶ Screenshots
 
 ![스크린샷 1](https://github.com/DannyLimDH/IoT25-HW01/blob/main/media/hw1-1.png)
 ![스크린샷 2](https://github.com/DannyLimDH/IoT25-HW01/blob/main/media/hw1-2.png)
 
 ---
-## ▶ 실행 영상
+## ▶ Demo GIF
 
 ![GIF 설명](./media/IoT25-HW01.gif)
 
 ---
+## References
+Rui Santos, VSCode + PlatformIO IDE: ESP32 & ESP8266, Arduino (Random Nerd Tutorials)
+https://RandomNerdTutorials.com/vs-code-platformio-ide-esp32-esp8266-arduino/
 
-## ✅ 확인 사항
-
-- [x] 코드가 정상 컴파일 및 업로드됨
-- [x] LED가 1초 간격으로 깜빡임
-- [x] 시리얼 모니터에 메시지 출력 확인
+---
